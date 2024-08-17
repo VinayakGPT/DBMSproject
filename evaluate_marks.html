@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluate Marks</title>
+</head>
+<body>
+    <h2>Evaluate Student Marks</h2>
+    <form action="evaluate_marks.php" method="POST">
+        <label for="student_id">Student ID:</label>
+        <input type="text" id="student_id" name="student_id" required><br><br>
+        
+        <label for="exam_id">Exam ID:</label>
+        <input type="text" id="exam_id" name="exam_id" required><br><br>
+        
+        <label for="marks">Marks:</label>
+        <input type="text" id="marks" name="marks" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule Exams</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Schedule Exams</h1>
+    </header>
+    <main>
+        <form action="php/schedule_exam.php" method="POST">
+            <label for="course_id">Course ID:</label>
+            <input type="text" id="course_id" name="course_id" required>
+            <label for="exam_date">Exam Date:</label>
+            <input type="date" id="exam_date" name="exam_date" required>
+            <input type="submit" value="Schedule Exam">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 College Management System</p>
+    </footer>
+</body>
+</html>
